@@ -11,19 +11,19 @@ There are just four instructions: L, Mx, My, and A operating on three registers 
 The input will be a '^' followed by a list of instructions, each followed by a ':', such as
 ^L00000110:Mx:L00000111:My:A:Mx:L00001001:My:A:
 
-    The above assembly program does the following:
+The above assembly program does the following:
 
-        i. load the value 6 into z and move it into x.
+    i. load the value 6 into z and move it into x.
 
-        ii. load the value 7 into z and then move it to y.
+    ii. load the value 7 into z and then move it to y.
 
-        iii. add x and y and store the result (13) in z.
+    iii. add x and y and store the result (13) in z.
 
-        iv. move the value in z (13) into x.
+    iv. move the value in z (13) into x.
 
-        v. load the value 9 into z and move it into y.
+    v. load the value 9 into z and move it into y.
 
-        vi. add x and y and store the result (22) in z.
+    vi. add x and y and store the result (22) in z.
 
 HOW TO RUN:
 
