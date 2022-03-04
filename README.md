@@ -1,7 +1,8 @@
 This TM implementation is useful in executing programs written in a simplified assembly-like language.
 
 There are just four instructions: L, Mx, My, and A operating on three registers x, y, and z each holding a nonnegative integer.
-i. 'L' instructions load a certain constant number represented in binary into register z. For example, the instruction L00000101 loads the integer 5 into register z. The number of bits may be arbitrary, but it may be assumed that it is the same for all load instructions in the program.
+
+    i. 'L' instructions load a certain constant number represented in binary into register z. For example, the instruction L00000101 loads the integer 5 into register z. The number of bits may be arbitrary, but it may be assumed that it is the same for all load instructions in the program.
 
     ii. 'Mx' and 'My' instructions copy the value from z into x or y, respectively.
 
@@ -9,8 +10,10 @@ i. 'L' instructions load a certain constant number represented in binary into re
 
 The input will be a '^' followed by a list of instructions, each followed by a ':', such as
 ^L00000110:Mx:L00000111:My:A:Mx:L00001001:My:A:
-The above program does the following:
-i. load the value 6 into z and move it into x.
+
+    The above program does the following:
+
+        i. load the value 6 into z and move it into x.
 
         ii. load the value 7 into z and then move it to y.
 
