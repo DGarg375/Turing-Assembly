@@ -11,7 +11,7 @@ There are just four instructions: L, Mx, My, and A operating on three registers 
 The input will be a '^' followed by a list of instructions, each followed by a ':', such as
 ^L00000110:Mx:L00000111:My:A:Mx:L00001001:My:A:
 
-    The above program does the following:
+    The above assembly program does the following:
 
         i. load the value 6 into z and move it into x.
 
