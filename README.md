@@ -24,3 +24,11 @@ The input will be a '^' followed by a list of instructions, each followed by a '
         v. load the value 9 into z and move it into y.
 
         vi. add x and y and store the result (22) in z.
+
+HOW TO RUN:
+
+    i. Go to an automata simulator (https://web.cs.ucdavis.edu/~doty/automata/).
+
+    ii. Click on the 'TM' option and upload the file 'TM_assembly.tm'
+
+    iii. Type a program input in the provided text box and then click on 'simulate' option.
